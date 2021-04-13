@@ -6,7 +6,7 @@ for char in list(num):
 
 result = n[0]
 for i in range(1,len(n)):
-    if result==0 or i==0:
+    if result<=1 or i<=1:
         result += n[i]
     else:
         result *= n[i]
